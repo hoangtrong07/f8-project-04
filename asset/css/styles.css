@@ -384,6 +384,7 @@ button {
   margin: 0 auto;
   width: 450px;
 }
+
 .about__media-decor {
   position: absolute;
   top: 157px;
@@ -638,6 +639,7 @@ button {
   background-position: bottom;
   background-size: 100%;
 }
+
 .staff-item:nth-child(1) .staff-item__img-wrap::after {
   background-image: url(../img/staff01.svg);
 }
@@ -662,6 +664,7 @@ button {
 .staff-item:nth-child(even) .staff-item__img-wrap::after {
   background-position: 0 16px;
 }
+
 .staff-item {
   text-align: center;
 }
@@ -1117,4 +1120,94 @@ button {
   color: #656689;
   font-size: 1.2rem;
   line-height: 1.67;
+}
+
+.sticker {
+  margin-right: auto;
+  width: 131.5px;
+  height: 131.5px;
+  background: url(https://sleepybear.io/post/css-sprite-chi-con-la-qua-khu/images/facebook-sticker-spritesheet.png);
+  animation: run 1s infinite steps(1);
+}
+
+@keyframes run {
+  0% {
+    background-position: -0px -0px;
+  }
+
+  5% {
+    background-position: -160px -0px;
+  }
+
+  10% {
+    background-position: -320px -0px;
+  }
+
+  15% {
+    background-position: -480px -0px;
+  }
+
+  20% {
+    background-position: -0px -160px;
+  }
+
+  25% {
+    background-position: -160px -160px;
+  }
+
+  30% {
+    background-position: -320px -160px;
+  }
+
+  35% {
+    background-position: -480px -160px;
+  }
+
+  40% {
+    background-position: -0px -320px;
+  }
+
+  45% {
+    background-position: -160px -320px;
+  }
+
+  50% {
+    background-position: -320px -320px;
+  }
+
+  55% {
+    background-position: -480px -320px;
+  }
+
+  60% {
+    background-position: -0px -480px;
+  }
+
+  65% {
+    background-position: -160px -480px;
+  }
+
+  70% {
+    background-position: -320px -480px;
+  }
+
+  75% {
+    background-position: -480px -480px;
+  }
+
+  80% {
+    background-position: -0px -640px;
+  }
+
+  85% {
+    background-position: -160px -640px;
+  }
+
+  90% {
+    background-position: -320px -640px;
+  }
+
+  95% {
+    background-position: -480px -640px;
+  }
 }
